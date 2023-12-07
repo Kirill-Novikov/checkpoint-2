@@ -21,8 +21,11 @@ h1 {
   color: #121212;
 }
 
-.img-title {
-  margin-bottom: 150px;
+.caption__content {
+  padding: 74px 125px 0;
+}
+
+.caption__pic {
   width: 1150px;
   height: 500px;
   padding-left: 40px;
@@ -30,7 +33,7 @@ h1 {
   background-image: url(../img/img-title.svg);
 }
 
-.text {
+.caption__descr {
   width: 430px;
   font-size: 20px;
   font-style: normal;
@@ -40,7 +43,12 @@ h1 {
   color: #ffffff;
 }
 
-.item-title {
+/* hero */
+
+.hero__content {
+  padding: 150px 125px 0;
+}
+.hero__subtitle {
   margin-bottom: 30px;
   font-size: 18px;
   font-style: normal;
@@ -50,7 +58,7 @@ h1 {
   color: #121212;
 }
 
-.text-title {
+.hero__descr {
   margin-bottom: 30px;
   width: 1048px;
   font-size: 45px;
@@ -61,7 +69,7 @@ h1 {
   color: #121212;
 }
 
-.services-button {
+.hero__button {
   display: inline-block;
   padding: 20px 40px;
   font-size: 20px;
@@ -75,24 +83,31 @@ h1 {
   cursor: pointer;
 }
 
-.text-item {
-  margin-bottom: 150px;
+/* offer */
+
+.offer__content {
+  padding: 150px 125px;
 }
 
-/* projects */
-.section-projects {
-  padding: 125px 125px 150px;
+.offer__subtitle {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  color: #121212;
 }
 
-.projects-info {
+.offer__desc {
   margin-bottom: 90px;
 }
 
-.projects-img {
+.offer__img {
   margin-bottom: 15px;
 }
 
-.projects-desc {
+.offer__text {
   margin-bottom: 15px;
   font-size: 30px;
   font-style: normal;
@@ -102,7 +117,7 @@ h1 {
   color: #121212;
 }
 
-.projects-control {
+.offer__link {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -112,7 +127,7 @@ h1 {
   color: #ad1818;
 }
 
-.projects-link-btn {
+.offer__btn {
   display: block;
   width: 1150px;
   height: 155px;
@@ -127,33 +142,44 @@ h1 {
   color: #ad1818;
 }
 
-.projects-link-btn:hover {
+.offer__btn:hover {
   color: white;
   background-color: #ad1818;
 }
 
-/* section-services */
+/* services */
 
-.section-services {
+.services__content {
   margin: 0 auto;
   padding: 210px 125px 150px;
   width: 1400px;
   background-color: #121212;
 }
 
-.section-info {
+.services__subtitle {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  color: #fff;
+}
+
+.services__features {
   margin-bottom: 90px;
 }
 
-.section-services-img {
+.services__img {
   margin-bottom: 15px;
   width: 100%;
 }
 
-.section-subtitle {
-  color: #fff;
-}
-
-.section-desc {
+.services__text {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
   color: #fff;
 }
